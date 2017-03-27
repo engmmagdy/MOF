@@ -1,0 +1,36 @@
+.breadcrumb-section {
+    text-align: right;
+    font-size: 16px;
+}
+
+.breadcrumb-section .breadcrumb {
+    background-color: transparent;
+    font-family: 'Changa-Regular' !important;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    padding: 5px 1rem;
+}
+
+.breadcrumb-section .share-print {
+    padding: 5px 1rem;
+}
+
+.breadcrumb-item:hover, .breadcrumb-section .share-print .share-print-item:hover {
+    color: #c7953a;
+}
+
+a.breadcrumb-item:last-child {
+    color: #c7953a;
+}
+
+.breadcrumb-item + .breadcrumb-item:before {
+    content: "\f100";
+    font-family: "FontAwesome";
+    color: #fff;
+}
+
+.breadcrumb-section .share-print .share-print-item {
+    margin-left: 10px;
+    font-family: 'Cairo-SemiBold' !important;
+    font-size: 12px;
+}

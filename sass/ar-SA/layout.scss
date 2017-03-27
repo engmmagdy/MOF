@@ -1,0 +1,12 @@
+﻿$left: left;
+$right: right;
+
+$direction: rtl;
+
+$font-default: 'Cairo-Regular', "Arial" !default;
+$font-default2: 'Changa-SemiBold' !default;
+
+
+@import "../fonts/_fonts.scss";
+@import "../layouts/_layout.scss";
+@import "../components/_base.scss";

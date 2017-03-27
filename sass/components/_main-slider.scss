@@ -1,0 +1,106 @@
+/*Slider*/
+#slider {
+    background-image: url(../../images/slider/bg.png);
+    background-color: #e1e1e1;
+    padding: 50px 0px;
+    padding-bottom: 80px;
+
+    img {
+        width: 100%;
+    }
+
+    .slick-arrow {
+        position: absolute;
+        top: 40%;
+        cursor: pointer;
+
+        &:hover{
+            color: #8d0034;
+        }
+    }
+
+    .prev.slick-arrow {
+        #{$left}: -40px;
+        font-size: 45px;
+    }
+
+    .next.slick-arrow {
+        #{$right}: -40px;
+        font-size: 45px;
+    }
+
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 46%;
+    color: #231f20;
+    text-align: center;
+    opacity: 1;
+    font-size: 28px;
+}
+
+.carousel-control-next .fa, .carousel-control-prev .fa {
+    margin-#{$left}: 0px;
+}
+
+.carousel-control-next:hover, .carousel-control-prev:hover, .carousel-control-next:focus, .carousel-control-prev:focus {
+    text-decoration: none !important;
+    color: #73082f;
+}
+
+.carousel-control-prev {
+    #{$right}: -20px;
+}
+
+.carousel-control-next {
+    #{$left}: -20px;
+}
+
+.slide-title {
+    color: #8d0034;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.slide-discription {
+    font-family: 'Changa-Regular' !important;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.slide-title, .slider-btns {
+    font-family: 'Changa-SemiBold' !important;
+}
+
+.slider-btns a.btn-red, a.btn-red {
+    padding: 10px 13px;
+    background-color: #8d0034;
+    color: #fff;
+    margin-left: 10px;
+    border: 1px solid transparent;
+}
+
+.slider-btns a.btn-red:hover, a.btn-red:hover {
+    background-color: #fff;
+    color: #8d0034;
+    border: 1px solid #8d0034;
+}
+
+.slider-btns a.btn-yellow {
+    padding: 10px 13px;
+    background-color: #c7953a;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.slider-btns a.btn-yellow:hover {
+    background-color: #fff;
+    color: #c7953a;
+    border: 1px solid #c7953a;
+}
+
+.slide-item-img {
+    float: $left;
+}

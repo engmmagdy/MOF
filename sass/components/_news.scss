@@ -1,0 +1,53 @@
+/*Latest News*/
+.news-img {
+    margin-bottom: 15px;
+}
+
+.news-results-list {
+    margin-right: 7px;
+    overflow: hidden;
+}
+
+.news-result-item {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.event-info-container, .event-info-container a {
+    font-family: 'Changa-Regular' !important;
+}
+
+.news-info-title a {
+    color: #8d0034;
+}
+
+.news-info-title a:hover {
+    color: #c7953a;
+}
+
+
+.news-info-title h6 {
+    line-height: 25px;
+    font-size: 17px;
+    margin-bottom: 0px;
+    margin-top: -5px;
+}
+
+.news-info-date span {
+    color: #c7953a;
+    font-size: 14px;
+}
+
+.news-info-summary p {
+    line-height: 24px;
+    font-size: 15px;
+}
+
+.news-info-date span.fa {
+    color: #433c3c;
+}
+
+.news-info-more .btn-red {
+    padding: 7px 13px;
+    margin-top: 5px;
+}

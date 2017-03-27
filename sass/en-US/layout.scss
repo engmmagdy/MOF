@@ -1,0 +1,11 @@
+﻿$left: right;
+$right: left;
+
+$direction: ltr;
+
+$font-default: 'OpenSans-Regular', "Changa-Medium" !default;
+$font-default2: 'OpenSans-SemiBold' !default;
+
+@import "../fonts/_fonts.scss";
+@import "../layouts/_layout.scss";
+@import "../components/_base.scss";

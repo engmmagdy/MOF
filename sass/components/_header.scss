@@ -1,0 +1,186 @@
+﻿/*top header*/
+.top-header {
+    background-color: #8d0034;
+    color: #ffffff;
+    padding: 5px 0px;
+}
+
+ul.top-header-right {
+    text-align: $right;
+
+    li {
+        > a {
+            color: #fff;
+            display: block;
+
+            &:hover {
+                color: #c18639;
+            }
+
+            span.fa {
+                color: #c18639;
+                font-size: 5px;
+                margin-#{$left}: 10px;
+            }
+        }
+
+        &.d-inline {
+            display: inline-block !important;
+        }
+    }
+}
+
+
+
+ul.top-header-left {
+    text-align: $left;
+
+    li {
+        margin-right: 10px;
+
+        &.d-inline {
+            display: inline-block !important;
+        }
+    }
+
+    .search {
+        width: 200px;
+    }
+}
+
+
+ul.top-header-left li a, ul.top-header-right li a {
+    padding: 4px;
+    font-size: 13px;
+    font-family: "Cairo-SemiBold" !important;
+    color: #fff;
+}
+
+ul.top-header-left li button.btn-top-left:hover, ul.top-header-left li a:hover, ul.top-header-left li .btn-top-left:focus, ul.top-header-left li a:focus {
+    color: #c18639;
+    cursor: pointer !important;
+}
+
+
+.search .form-control {
+    border-radius: 0px !important;
+    height: 28px;
+    border-bottom-#{$right}-radius: 4px !important;
+    border-top-#{$right}-radius: 4px !important;
+    border-#{$left}: 0px !important;
+    width: 0px;
+    padding: 0px;
+    border: 0px solid #73082f;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all 0.5s;
+    position: relative;
+    #{$left}: 0;
+    float: $left;
+}
+
+
+.showform {
+    width: 100% !important;
+    border: 1px solid #73082f !important;
+    border-#{$left}: 0px !important;
+    padding: 3px 10px !important;
+}
+
+
+.top-header-left, .top-header-right {
+    margin-top: 0px;
+    margin-bottom: -5px;
+}
+
+.btn-search {
+    background: transparent;
+    color: #fff;
+    border-#{$left}: 1px solid #73082f;
+    border-bottom-#{$left}-radius: 4px !important;
+    border-top-#{$left}-radius: 4px !important;
+    margin-#{$right}: -2px !important;
+    border-#{$right}: 0px !important;
+    height: 28px;
+    padding: 1px 3px;
+    margin-top: 0px;
+    font-size: 16px;
+    margin-top: 0px;
+    min-width: 0;
+    display: none;
+}
+
+.append-btn-search, .btn-search:focus, .btn-search:hover {
+    background: #fff;
+    border: 1px solid #73082f;
+    border-#{$right}: 0px;
+    color: #73082f;
+}
+
+.btn-search span.fa {
+    margin-#{$left}: 5px;
+    margin-#{$right}: 5px;
+}
+
+.language a {
+    position: relative;
+    top: -8px;
+    font-size: 16px !important;
+}
+
+.language span.fa {
+    margin-#{$left}: 0px;
+    margin-#{$right}: 5px;
+}
+
+
+.searchBox {
+    border-#{$left}: 1px solid #73082f;
+    width: 250px;
+    text-align: right;
+    position: relative;
+    #{$left}: 40px;
+
+    .ms-srch-sb-border, .ms-srch-sb-borderFocused {
+        border: 0;
+
+        &:hover {
+            border: 0;
+        }
+    }
+
+    input[type=text] {
+        background: #fff;
+        color: #000000;
+        padding: 10px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .ms-srch-sb a {
+        -webkit-transition: all 0.3s ease 0.1s;
+        -moz-transition: all 0.3s ease 0.1s;
+        -ms-transition: all 0.3s ease 0.1s;
+        -o-transition: all 0.3s ease 0.1s;
+        transition: all 0.3s ease 0.1s;
+        height: 30px !important;
+        line-height: 21px;
+        width: 35px;
+        text-align: center;
+        background: #fff;
+
+        &:hover {
+            background: #ddd;
+        }
+
+        &:before {
+            color: black;
+            content: "\f002";
+            font-family: fontawesome;
+        }
+    }
+
+    .ms-srch-sb a img {
+        display: none;
+    }
+}

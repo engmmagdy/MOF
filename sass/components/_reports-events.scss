@@ -1,0 +1,146 @@
+/*Reports and Events*/
+#reportsEvents {
+	overflow: hidden;
+}
+
+.p-40 {
+	padding: 40px 0px;
+	overflow: hidden;
+}
+
+.reports::before, .events::before {
+    background: url(../../images/reports/bg.png) repeat;
+    content: "";
+    position: absolute;
+    #{$right}: -400px;
+    #{$left}: -400px;
+    bottom: -30px;
+    top: 0;
+    background-color: #c7953a;
+    z-index: -1;
+}
+
+.events::before {
+	background-color: #8d0034;
+	#{$right}: 0px;
+}
+
+.reports h5, .reports h6 {
+	font-family: 'Cairo-SemiBold' !important;
+}
+
+.reports h5, .events-title h5 {
+	font-size: 22px;
+	color: #8d0034;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.reports h6 {
+	line-height: 26px;
+	font-size: 20px;
+}
+
+.no-mg-pg {
+	margin: 0px;
+	padding: 0px;
+}
+
+.reports-discription {
+	margin-#{$right}: -15px;
+}
+
+.img-responsive {
+	max-width: 100%;
+}
+
+.reports-discription h6 {
+	color: #231f20;
+}
+
+.events {
+    padding-#{$right}: 10px;
+    padding-bottom: 0;
+}
+
+.events-title h5 {
+	color: #fff;
+}
+
+.event-title {
+	color: #c7953a;
+	margin-bottom: 10px;
+}
+
+.event-date, blockquote {
+	font-family: 'Cairo-Regular' !important;
+	color: #fff;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+blockquote {
+	line-height: 25px;
+	text-align: justify;
+}
+
+blockquote span.fa {
+	color: #c7953a;
+	display: block;
+}
+
+blockquote span.fa:last-child {
+	position: absolute;
+	#{$left}: 0;
+}
+
+.carousel-indicators {
+	bottom: -50px;
+	#{$right}: 22px;
+}
+
+.carousel-indicators li {
+	background: #ffffff;
+	-webkit-box-shadow: 0px 0px 2px rgba(35,31,32,1);
+	-moz-box-shadow: 0px 0px 2px rgba(35,31,32,1);
+	box-shadow: 0px 0px 2px rgba(35,31,32,1);
+}
+
+.carousel-indicators li.active {
+	border: 1px solid transparent;
+	background-color: #c7953a;
+}
+
+.slick-dots {
+
+    li {
+        display: inline-block;
+
+        button {
+            font-size: 0;
+            border-radius: 50%;
+            width: 15px;
+            height: 15px;
+            min-width: 0px;
+            padding: 0;
+            margin-#{$left}: 10px;
+            outline: 0;
+            border: 0;
+
+            &:focus, &:active {
+                background: #fff;
+                border: 0;
+            }
+
+            &:hover{
+
+            }
+        }
+
+        &.slick-active {
+            button {
+                background: #c7953a;
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+/*SideBar*/
+.box {
+	margin-bottom: 10px;
+}
+
+.box .box-header {
+	background-color: #c7953a;
+	color: #ffffff;
+	overflow: hidden;
+}
+
+.box .box-body {
+	border: 1px solid #c7c7c7;
+}
+
+.box .box-body .box-links ul li {
+	list-style: none;
+}
+
+.box .box-body .box-links ul li a {
+	color: #828282;
+	padding: 15px;
+	border-bottom: 1px solid #c7c7c7;
+	display: block;
+	font-size: 14px;
+	font-family: 'Cairo-Regular' !important;
+}
+
+.box .box-body .box-links ul li a.active, .box .box-body .box-links ul li a:hover, .box .box-body .box-links ul li a:focus {
+	background-color: #c7953a;
+	color: #fff;
+	padding-right: 35px;
+}
+
+.box .box-body .box-links ul li:last-child a {
+	border-bottom: 0px;
+}
+
+.box .box-body .box-links ul li a span.fa {
+	margin-left: 10px;
+}

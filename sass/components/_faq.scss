@@ -1,0 +1,47 @@
+/*FAQ*/
+.faq-part .card {
+    position: relative;
+    display: block;
+    margin-bottom: .75rem;
+    background-color: #fff;
+    border-radius: .25rem;
+    border: 0px solid #c7c7c7;
+}
+
+.faq-part a.accordion-toggle {
+    color: #8d0034;
+    display: block;
+    font-size: 16px;
+    border-radius: .25rem;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    padding: .75rem 1.25rem;
+}
+
+.faq-part a.accordion-toggle:hover, .faq-part .accordion-toggle[aria-expanded="true"] {
+    border: 1px solid #c7953a;
+    border-radius: .25rem .25rem 0 0;
+}
+
+.faq-part .accordion-toggle[aria-expanded="false"]:after {
+    font-family: 'FontAwesome'; /* essential for enabling glyphicon */
+    content: "\f053"; /* adjust as needed, taken from bootstrap.css */
+    float: left; /* adjust as needed */
+}
+
+.faq-part .accordion-toggle[aria-expanded="true"]:after {
+    font-family: 'FontAwesome';
+    content: "\f078";
+    float: left;
+}
+
+.faq-part .card-header {
+    background-color: transparent;
+    border: 0px solid #c7c7c7;
+    padding: 0px;
+}
+
+.faq-part .collapse {
+    border: 1px solid #c7c7c7;
+    border-top: 0px;
+}

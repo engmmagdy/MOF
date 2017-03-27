@@ -1,0 +1,44 @@
+$fontPath : "/Style Library/MOF_Branding/fonts";
+
+/* ========================== Import Fonts ============================*/
+
+ 
+@font-face {
+    font-family: 'Cairo-Regular';
+    src: url('#{$fontPath}/Cairo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cairo-SemiBold';
+    src: url('#{$fontPath}/Cairo-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Changa-Medium';
+    src: url('#{$fontPath}/Changa-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Changa-Regular';
+    src: url('#{$fontPath}/Changa-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Changa-Bold';
+    src: url('#{$fontPath}/Changa-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Changa-SemiBold';
+    src: url('#{$fontPath}/Changa-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('#{$fontPath}/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('#{$fontPath}/OpenSans-Bold.ttf') format('truetype');
+}

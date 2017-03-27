@@ -1,0 +1,121 @@
+/*Services*/
+#services {
+    background-image: url(../../images/services/bg.png);
+    background-color: #343031;
+    padding-bottom: 0px;
+    margin-bottom: -30px;
+}
+
+#services a, #services p, #services h3 {
+
+    @if $right == right {
+        font-family: 'Cairo-SemiBold' !important;
+    }
+
+    @else {
+        font-family: 'OpenSans-SemiBold' !important;
+    }
+}
+
+.owl-carousel .owl-wrapper-outer {
+    position: relative;
+    top: -50px;
+    direction: ltr;
+}
+
+.owl-carousel .owl-item {
+    /*float: right;*/
+}
+
+.service-item {
+    text-align: center;
+    min-height: 260px;
+}
+
+.service-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #c7953a;
+    text-align: center;
+    border: 4px solid #fff;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.service-icon:hover {
+    border: 4px solid #8d0034;
+}
+
+.service-icon img {
+    width: 100%;
+}
+
+.service-title h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.service-title a:hover {
+    color: #c7953a;
+}
+
+.service-discription {
+    color: #999999;
+    font-size: 14px;
+    width: 80%;
+    text-align: center;
+    margin: 20px auto 30px;
+}
+
+.service-btn a {
+    text-decoration: none;
+    background-color: #8d0034;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 15px;
+    border: 1px solid transparent;
+}
+
+.service-btn a:hover {
+    border: 1px solid #8d0034;
+    color: #8d0034;
+    background-color: #fff;
+}
+
+
+/*services-part*/
+
+.services-part .form-control {
+    border-radius: 0px;
+    border: 1px solid #c7953a;
+    font-family: 'Changa-Regular' !important;
+    padding: .75rem .75rem;
+}
+
+
+.services-part ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #151515;
+}
+
+.services-part ::-moz-placeholder { /* Firefox 19+ */
+    color: #151515;
+}
+
+.services-part :-ms-input-placeholder { /* IE 10+ */
+    color: #151515;
+}
+
+.services-part :-moz-placeholder { /* Firefox 18- */
+    color: #151515;
+}
+
+.services-carousel {
+    margin-top: -50px;
+    padding-bottom: 50px;
+
+    a {
+        color: #fff;
+    }
+}

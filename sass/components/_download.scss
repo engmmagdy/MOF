@@ -1,0 +1,101 @@
+/*Download*/
+
+.download-part-icon {
+    padding: 1px 20px;
+    background-color: #f6f6f6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.download-icon {
+    margin-top: 20px;
+}
+
+/*Download 2 Filter*/
+.download2-filter-section, .events-filter-section {
+    font-family: 'Changa-Regular' !important;
+    background: #f2f2f2;
+    padding: 10px;
+    padding-bottom: 5px;
+    color: #433c3c;
+    margin-right: 20px;
+}
+
+.download2-filter-select, .events-filter-select {
+    font-family: 'Changa-Regular' !important;
+    color: #433c3c;
+    width: 150px !important;
+    height: 37px !important;
+    line-height: 30px;
+    padding: 0px 7px !important;
+    margin-right: 0px;
+    margin-top: -7px;
+    font-size: 16px;
+}
+
+.download2-result-list {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.download2-result-list li {
+    border-bottom: 1px solid #e4e4e4;
+    padding: 5px 0px;
+}
+
+.download2-result-list li a {
+    font-family: 'Changa-Regular' !important;
+    color: #8d0034;
+    font-size: 15px;
+}
+
+.download2-result-list li a span.fa {
+    color: #433c3c;
+}
+
+.download2-result-list li a:hover {
+    color: #433c3c;
+}
+
+.download2-result-list li a:hover span.fa {
+    color: #8d0034;
+}
+
+.download2-popular {
+    overflow: hidden;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 5px 0px;
+    margin-right: 20px;
+}
+
+.download2-popular a {
+    color: #433c3c;
+}
+
+.download2-popular-btns {
+    font-family: 'Changa-Regular' !important;
+    text-align: right;
+}
+
+.download2-popular-btns a {
+    font-family: 'Changa-Regular' !important;
+    text-align: right;
+}
+
+.download2-popular-btns a:first-child {
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.download2-popular-btns .btn-red {
+    background-color: #8d0034;
+    color: #ffffff;
+    margin-right: 10px;
+    padding: 3px 13px;
+}
+
+.download2-popular-btns .btn-red:hover {
+    color: #8d0034;
+    border: 1px solid #8d0034;
+    background-color: #ffffff;
+}

@@ -1,0 +1,130 @@
+/*Contact*/
+.contac-part-icons .row {
+	margin: 0px;
+}
+
+.contac-part-icon {
+	text-align: center;
+	background-color: #f6f6f6;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+}
+
+.contac-part-icon h6, .download-part-icon h6 {
+	font-family: 'Cairo-SemiBold' !important;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+.contact-title h6, .download-title h6 {
+	color: #8d0034;
+}
+
+.contact-icon, .download-icon {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 4px solid #fff;
+	background-color: #c7953a;
+	text-align: center;
+	padding: 10px;
+	color: #fff;
+	margin: 0 auto;
+	font-size: 45px;
+	margin-bottom: 15px;
+	margin-top: -50px;
+}
+
+.contact-icon span.fa, .download-icon span.fa {
+	margin-left: 0px;
+}
+
+.download-part-icon:hover {
+	border: 1px solid #8d0034;
+	background-color: #fff;
+}
+
+.download-part-icon:hover .download-icon {
+	border: 4px solid #8d0034;
+	background-color: #ffffff;
+	color: #8d0034;
+}
+
+.contact-icon:hover {
+}
+
+.contact-part-form, .contact-part-map {
+	background-color: #f6f6f6;
+	padding: 20px;
+	margin: 40px 0px;
+}
+
+.contact-part-map {
+	margin-top: 20px;
+}
+
+div.google-map {
+	background: #E5E3DF;
+	height: 342px;
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+	/*padding: 20px;*/
+}
+
+.contact-part-form h6, .contact-part-map h6 {
+	font-family: 'Changa-Regular' !important;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.astric {
+	font-size: 17px !important;
+	text-align: left;
+	color: #df0000 !important;
+}
+
+.contact-form .row {
+}
+
+.contact-form .form-control {
+	font-family: 'Changa-Regular' !important;
+	padding: .75rem .75rem;
+	border: 1px solid #c7953a;
+	border-radius: 0;
+	margin-bottom: 20px;
+}
+
+.contact-form ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #151515;
+}
+
+.contact-form ::-moz-placeholder { /* Firefox 19+ */
+	color: #151515;
+}
+
+.contact-form :-ms-input-placeholder { /* IE 10+ */
+	color: #151515;
+}
+
+.contact-form :-moz-placeholder { /* Firefox 18- */
+	color: #151515;
+}
+
+.contact-form textarea {
+	min-height: 150px;
+}
+
+.contact-btn {
+	background-color: #8d0034;
+	color: #fff;
+	border-radius: 0px;
+	border: 1px solid #73082f;
+}
+
+.contact-btn:hover {
+	color: #151515;
+	background-color: #fff;
+	border: 1px solid #c7953a;
+}

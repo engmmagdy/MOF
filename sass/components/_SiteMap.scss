@@ -1,0 +1,47 @@
+﻿.toc-layout-main .dfwp-column {
+    clear: none;
+    float: left;
+    margin-left: 10px;
+    width: 48%;
+}
+
+.toc-layout-main .dfwp-column li {
+    clear: none;
+    float: left;
+    margin: 0;
+    width: 100% !important;
+}
+.toc-layout-main .dfwp-column li a,.toc-layout-main .dfwp-column li a:link,.toc-layout-main .dfwp-column li a:visited {
+    font-size: 14px;
+}
+.toc-layout-main a:hover {
+	color:#cdb464;
+}
+
+.toc-layout-main .dfwp-list .dfwp-column .level-header {
+    
+    border-bottom: 1px solid #f8f8f8;
+    font-size: 14px;
+    padding: 5px 20px 0 0;
+}
+
+.toc-layout-main .level-band {
+    color: #079071;
+    padding: 1px 18px;
+    position: relative;
+    text-transform: uppercase;
+}
+.toc-layout-main .level-band::before {
+    content: "";
+    font-family: fontawesome;
+    font-size: 9px;
+    left: 5px;
+    position: absolute;
+    top: 9px;
+}
+.toc-layout-main .level-header::before {
+    content: "";
+    font-family: FontAwesome;
+    margin-right: 5px;
+}
+

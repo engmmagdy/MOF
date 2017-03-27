@@ -1,0 +1,217 @@
+﻿.ms-srch-item {
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    font-family: "Helvetica_bold";
+}
+
+.ms-srch-item-body {
+    background: #ebebeb;
+    padding: 0 20px 30px 20px;
+}
+
+.ms-srch-item-body:hover {
+    background: #079071 !important;
+}
+
+.ms-srch-item-body:hover * {
+    color: #fff !important;
+ 
+}
+
+.ms-srch-item:hover, .ms-srch-resultHover:hover, .edisc-SearchResultItemContainer:hover {
+    background: transparent;
+}
+
+.ms-srch-ellipsis a {
+    text-decoration: underline !important;
+    color: #079071 !important;
+}
+
+.ms-srch-ellipsis {
+    color: #005350;
+    font-size: 24px;
+}
+
+.ms-srch-item-summary {
+    color: #424242;
+    padding: 10px 0;
+}
+
+.ms-srch-item-path {
+    color: #005350;
+}
+
+.alternative-Row {
+}
+
+.ms-srch-item-body {
+    position: relative;
+    display: block;
+}
+
+
+.ms-srch-item-icon img {
+    display: none !important;
+}
+
+.ms-srch-item-previewContainer {
+    display: none !important;
+}
+
+.ms-srch-item-summaryPreview {
+    width: 100%;
+}
+
+.ms-srch-item-icon {
+    height: 70px;
+    margin-top: 25px;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 70px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    padding-right: 15px;
+}
+
+.WordItem .ms-srch-item-icon:before {
+    content: "\f1c2";
+}
+
+.PowerPointItem .ms-srch-item-icon:before {
+    content: "\f1c4";
+}
+
+.ExcelItem .ms-srch-item-icon:before {
+    content: "\f1c3";
+}
+
+.PDFItem .ms-srch-item-icon:before {
+    content: "\f1c1";
+}
+
+.PictureItem .ms-srch-item-icon:before {
+    content: "\f1c5";
+}
+
+.WebPageItem .ms-srch-item-icon:before {
+    content: "\f0f6";
+}
+
+.ms-srch-result #ResultFooter {
+    display: none;
+}
+
+.ms-srch-item:nth-child(2n+1) .ms-srch-item-body {
+    background: #f9f9f9;
+}
+
+.ms-srch-hover-outerContainer {
+    display: none !important;
+}
+
+#ResultHeader {
+    display: none !important;
+}
+
+.ms-srch-result-noResults {
+    line-height: 25px;
+}
+
+
+
+
+.ms-srch-result #PagingSelf a,
+.ms-srch-result #PagingLink a,
+.ms-srch-result #PagingImageLink a.ms-promlink-button {
+    direction: $direction;
+    border: 1px solid #dedede;
+    width: 25px;
+    height: 25px;
+    padding-top: 2px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+
+#PagingSelf a {
+    direction: $direction;
+    border: 1px solid #dedede;
+    padding-top: 2px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#Paging a:hover, #PagingSelf a {
+    direction: $direction;
+    display: inline-block;
+    border: 1px solid #dedede;
+    /*border-radius: 50%;*/
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    background-color: #005350;
+    color: #fff !important;
+    padding-top: 2px;
+    text-decoration: none;
+}
+
+
+#Paging #PagingImageLink a img {
+    display: none;
+}
+
+#Paging #PagingImageLink #PageLinkNext span:after {
+    content: ">";
+    position: relative;
+    top: -1px;
+    left: 0px;
+}
+
+#Paging #PagingImageLink #PageLinkPrev span:after {
+    content: "<";
+    position: relative;
+    top: -1px;
+    left: 0px;
+}
+
+main #SearchBox {
+    width: 100px;
+    position: relative;
+
+    > div {
+        width: 100px;
+    }
+
+    input[type="text"] {
+        padding: 11px;
+        width: 100px;
+        margin: 0px;
+        font-family: inherit;
+        height: auto;
+    }
+
+    .ms-srch-sb-searchLink {
+        left: 10px;
+        top: 10px;
+        position: absolute;
+    }
+}
+
+.ms-srch-sb-searchLink:active, .ms-srch-sb-searchLink > img:active, .ms-srch-sb-navLink:active, .ms-srch-sb-navLink > img:active, .ms-srch-sb-navLink-menuOpen, .ms-srch-sb-navLink-menuOpen:hover, .ms-srch-sb-searchLink:hover, .ms-srch-sb-navLink:hover {
+    background-color: transparent;
+}
+
+#aspnetForm[action*="SearchResults.aspx"] nav .Search {
+    display: none;
+}
